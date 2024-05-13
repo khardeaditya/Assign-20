@@ -220,27 +220,23 @@ body{
 }
 
 /* Tablets Devices */ @media screen and (min-width: 769px) and (max-width: 992px){ 
+
+    .nav-text{
+        margin-left: -10px;
+        padding-right: 30px;
+        font-size: 20px;
+    }
+    .roadtocode-logo{
+        margin: auto;
+        margin-left: 10px;
+    }
+    .icp-card{
+        margin-left: 90px;
+    }
+}
+
   
 /* Large Devices */ @media screen and (min-width: 993px) and (max-width: 1200px){ 
 
 }
 
-
-/* tab Devices
-
-  .navbar {
-        
-       
-    }
-    .nav-text{
-        margin-left: -10px;
-        padding-right: 20px;
-    }
-    .roadtocode-logo{
-        margin: auto;
-    }
-    .roadtocode-text{
-      
-    }
-}
-*/
