@@ -6,7 +6,6 @@ body{
     background-color: #c7cdda;
 }
 .container {
-    animation-name: unset;
     display: flex;
     background-color: rgb(17 24 39);
 
@@ -16,6 +15,10 @@ body{
     display: flex;
     align-items: center;
     cursor: pointer;
+}
+.roadtocode-text{
+    font-size: 30px;
+     color: white;
 }
 
 .navbar {
@@ -102,6 +105,7 @@ body{
     margin-right: 0px;
     background-image: url(./../road\ to\ code\ icon.png);
     background-position: center;
+    
     align-items: center;
     background-repeat: no-repeat;
 }
@@ -142,3 +146,73 @@ body{
     color: #6b7280;
 }
 
+/* Small Devices */ @media screen and (max-width: 600px){
+    .roadtocode-text{
+        display: none;
+    }
+    .roadtocode-logo{
+        margin-left: 20px;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+        display: flex;
+       
+    }
+    .nav-items{
+        margin-left: -20px;
+    }
+    .side-bar {
+        height: 100px;
+        width: 0;
+       display: flex;
+       flex-direction: row;
+    }
+    .menu-items{
+        height: 10px;
+        width: 0px;
+    }
+    .menu-text{
+        display: none;
+    }
+    .side-bar-back{
+        display: none;
+    }
+    .icp-card{
+        position: absolute;
+      left: 80px;
+       
+        width: 70%;
+        margin: auto;
+    }
+
+}
+
+/* Normal Devices */ @media screen and (min-width: 601px) and (max-width: 768px){ }
+
+/* Tablets Devices */ @media screen and (min-width: 769px) and (max-width: 992px){ 
+  
+/* Large Devices */ @media screen and (min-width: 993px) and (max-width: 1200px){ 
+
+}
+
+
+/* tab Devices
+
+  .navbar {
+        
+       
+    }
+    .nav-text{
+        margin-left: -10px;
+        padding-right: 20px;
+    }
+    .roadtocode-logo{
+        margin: auto;
+    }
+    .roadtocode-text{
+      
+    }
+}
+*/
